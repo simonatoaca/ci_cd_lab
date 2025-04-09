@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/simonatoaca/go-simple-webserver:latest
+          image: ghcr.io/simonatoaca/ci_cd_lab:latest
           ports:
             - containerPort: 8080
